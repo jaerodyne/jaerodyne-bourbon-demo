@@ -461,7 +461,7 @@ header.navigation {
 .modal .modal-state {
   display: none; }
 .modal .modal-trigger {
-  padding: 0.8em 1em; }
+  padding: none; }
 .modal .modal-fade-screen {
   position: fixed;
   top: 0;
