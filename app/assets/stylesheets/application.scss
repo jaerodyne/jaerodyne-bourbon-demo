@@ -1,7 +1,16 @@
 // the last directory imports all available css styles in bourbon and neat
 // if you only want to import certain styles, change the path to include only that css file
-// @import "css/0-plugins/bourbon/bourbon";
-// @import "css/0-plugins/neat/neat";
-// @import 'css/0-plugins/base/base';
 @import "css/0-plugins/plugins";
 @import "css/1-extras/extras";
+
+// gem install bourbon
+// gem install neat
+// gem install bitters
+// gem "refills", group: :development
+
+// Make sure you're in app/assets/stylesheets/css/0-plugins:
+// bourbon install
+// bitters install
+// neat install
+// rails generate refills:list
+// rails generate refills:import SNIPPET
