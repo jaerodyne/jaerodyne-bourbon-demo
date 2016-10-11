@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Do a bundle install
 
-Things you may want to cover:
+gem install bourbon
+gem install neat
+gem install bitters
+gem "refills", group: :development
 
-* Ruby version
+# rename your application.css to application.scss
+# Watch for changes in app directory:
+sass --watch application.scss:app.css
 
-* System dependencies
+# Make sure you're in app/assets/stylesheets/css/0-plugins:
+bourbon install
+bitters install
+neat install
+rails generate refills:list
+rails generate refills:import SNIPPET
+# refills install in views
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### Go to application scss and import them! ######
+@import 'bourbon/bourbon'
+@import "neat/neat";
+@import 'base/base'
