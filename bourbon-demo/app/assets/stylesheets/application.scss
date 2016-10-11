@@ -1,9 +1,7 @@
 // the last directory imports all available css styles in bourbon and neat
 // if you only want to import certain styles, change the path to include only that css file
-@import "css/0-plugins/bourbon/bourbon";
-@import "css/0-plugins/neat/neat";
-@import "css/1-extras/favorites";
-@import "css/1-extras/custom";
-@import "css/1-extras/grid";
-@import "css/1-extras/map";
-@import 'css/0-plugins/base/base';
+// @import "css/0-plugins/bourbon/bourbon";
+// @import "css/0-plugins/neat/neat";
+// @import 'css/0-plugins/base/base';
+@import "css/0-plugins/plugins";
+@import "css/1-extras/extras";
