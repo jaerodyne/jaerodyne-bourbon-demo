@@ -2,12 +2,14 @@
 
 Do a bundle install
 
-``gem install bourbon``
-``gem install neat``
-``gem install bitters``
-``gem "refills", group: :development``
+```bash
+gem install bourbon
+gem install neat
+gem install bitters
+gem "refills", group: :development
+```
+# Rename your application.css to application.scss
 
-# rename your application.css to application.scss
 # Watch for changes in app directory:
 ``sass --watch application.scss:app.css``
 
@@ -20,6 +22,9 @@ Do a bundle install
 # refills install in views
 
 ##### Go to application scss and import them! ######
-``@import 'bourbon/bourbon'``
-``@import "neat/neat";``
-``@import 'base/base'``
+
+```bash
+@import 'bourbon/bourbon'
+@import "neat/neat";
+@import 'base/base'
+```
