@@ -9,17 +9,17 @@ Here's a Rails app with the Bourbon family installed, featuring:
 
 #Installation
 1. Run bundle install on the command line.
-```bash
-bundle install
-```
+  ```bash
+  bundle install
+  ```
 
 2. Install bourbon, neat, bitters, and refills.
-```bash
-gem install bourbon
-gem install neat
-gem install bitters
-gem "refills", group: :development
-```
+  ```bash
+  gem install bourbon
+  gem install neat
+  gem install bitters
+  gem "refills", group: :development
+  ```
 
 3. Rename your application.css to application.scss
 
@@ -27,18 +27,18 @@ gem "refills", group: :development
 ``sass --watch application.scss:app.css``
 
 5. Import bourbon, bitters, neat, refills for use in your rails app. Make sure you're in app/assets/stylesheets/css/0-plugins:
-```bash
-bourbon install
-bitters install
-neat install
-rails generate refills:list
-rails generate refills:import SNIPPET
-```
+  ```bash
+  bourbon install
+  bitters install
+  neat install
+  rails generate refills:list
+  rails generate refills:import SNIPPET
+  ```
 
 6. *Go to application.scss and import them!*
-```bash
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-@import 'base/base';
-```
+  ```bash
+  @import 'bourbon/bourbon';
+  @import 'neat/neat';
+  @import 'base/base';
+  ```
 > Note: Refills installs in the views folder, so there's no need to import them into application.scss
