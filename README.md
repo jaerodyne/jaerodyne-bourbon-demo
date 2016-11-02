@@ -13,7 +13,7 @@ Here's a Rails app with the Bourbon family installed, featuring:
   bundle install
   ```
 
-2. Install bourbon, neat, bitters, and refills.
+2. Install bourbon, neat, bitters, and refills gems.
   ```bash
   gem install bourbon
   gem install neat
@@ -21,9 +21,9 @@ Here's a Rails app with the Bourbon family installed, featuring:
   gem "refills", group: :development
   ```
 
-3. Rename your application.css to application.scss
+3. Rename your application.css file to application.scss to import all the Bourbon family files.
 
-4. Watch for changes in app directory:
+4. Watch for changes in app directory. This tells you if something imported correctly/incorrectly:
   ```bash
   sass --watch application.scss:app.css
   ```
