@@ -24,7 +24,9 @@ Here's a Rails app with the Bourbon family installed, featuring:
 3. Rename your application.css to application.scss
 
 4. Watch for changes in app directory:
-``sass --watch application.scss:app.css``
+  ```bash
+  sass --watch application.scss:app.css
+  ```
 
 5. Import bourbon, bitters, neat, refills for use in your rails app. Make sure you're in app/assets/stylesheets/css/0-plugins:
   ```bash
