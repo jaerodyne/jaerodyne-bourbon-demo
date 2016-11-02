@@ -1,9 +1,9 @@
 #Description
 Here's a Rails app with the Bourbon family installed, featuring:
-* Bourbon: A simple and lightweight mixin library for Sass
-* Neat: A lightweight semantic grid framework for Sass and Bourbon
-* Bitters: Scaffold styles, variables and structure for Bourbon projects
-* Refills: Prepackaged patterns and components built with Bourbon, Neat and Bitters
+* [Bourbon](https://github.com/thoughtbot/bourbon): A simple and lightweight mixin library for Sass
+* [Neat](https://github.com/thoughtbot/neat): A lightweight semantic grid framework for Sass and Bourbon
+* [Bitters](https://github.com/thoughtbot/bitters): Scaffold styles, variables and structure for Bourbon projects
+* [Refills](https://github.com/thoughtbot/refills): Prepackaged patterns and components built with Bourbon, Neat and Bitters
 
 > If you want to start building and customizing on a fresh Rails app right away, clone/fork the repo. Otherwise, if you'd like to install it on your own Rails app, read on for more details.
 
