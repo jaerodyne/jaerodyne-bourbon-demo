@@ -43,4 +43,5 @@ Here's a Rails app with the Bourbon family installed, featuring:
   @import 'neat/neat';
   @import 'base/base';
   ```
-> Note: Refills installs in the views folder, so there's no need to import them into application.scss
+
+>Note: Refills installs in the views folder, so there's no need to import them into application.scss
