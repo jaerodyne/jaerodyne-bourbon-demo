@@ -1,4 +1,4 @@
-#Description
+# Description
 Here's a Rails app with the Bourbon family installed, featuring:
 * [Bourbon](https://github.com/thoughtbot/bourbon): A simple and lightweight mixin library for Sass
 * [Neat](https://github.com/thoughtbot/neat): A lightweight semantic grid framework for Sass and Bourbon
@@ -7,7 +7,7 @@ Here's a Rails app with the Bourbon family installed, featuring:
 
 > If you want to start building and customizing on a fresh Rails app right away, clone/fork the repo. Otherwise, if you'd like to install it on your own Rails app, read on for more details.
 
-#Installation
+# Installation
 1. Run bundle install on the command line.
   ```bash
   bundle install
